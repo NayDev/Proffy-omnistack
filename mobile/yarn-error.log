@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add expo
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\wamp64\bin\php\php7.3.12;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Nayara\AppData\Local\Microsoft\WindowsApps;;C:\Users\Nayara\AppData\Roaming\Composer\vendor\bin;C:\Users\Nayara\AppData\Local\Yarn\bin;C:\Users\Nayara\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nayara\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/expo-status-bar: tunneling socket could not be established, statusCode=403
+      at ClientRequest.onConnect (C:\Program Files (x86)\Yarn\lib\cli.js:152223:19)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketOnData (_http_client.js:503:11)
+      at Socket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+      at readableAddChunk (_stream_readable.js:271:9)
+      at Socket.Readable.push (_stream_readable.js:212:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.41",
+      "@types/react-native": "~0.62.13",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
