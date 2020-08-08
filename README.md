@@ -32,7 +32,7 @@ Mobile (pasta mobile)
 
 💡 Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
 
-# O Back End (servidor)
+# O Back-end (servidor)
 
 Clone este repositório
  * $ git clone https://github.com/NayDev/Proffy.git
@@ -51,7 +51,7 @@ Execute a aplicação em modo de desenvolvimento
 
 * O servidor inciará na porta:3333 - acesse http://localhost:3333 
 
-# Rodando a aplicação web (Front End)
+# A Front-end (web)
 
 Clone este repositório
  * $ git clone https://github.com/NayDev/Proffy.git
@@ -70,7 +70,7 @@ Execute a aplicação em modo de desenvolvimento
 
 * O servidor inciará na porta:3000 - acesse http://localhost:3000
 
-# Rodando a aplicação mobile
+# O mobile
 
 Clone este repositório
  * $ git clone https://github.com/NayDev/Proffy.git
