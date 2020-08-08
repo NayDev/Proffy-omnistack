@@ -2,6 +2,8 @@
 
 🚧 NextLevelWeek #2 🚀 em construção 2.0... 🚧
 
+![Screenshot](screenshot.png)
+
 💻 Um pouco sobre o projeto
 
 # Proffy
