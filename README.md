@@ -88,3 +88,5 @@ Execute a aplicação em modo de desenvolvimento
 * npm start
 
 * O servidor inciará na porta:19002 - acesse http://localhost:19002/
+
+* Com o dispositivo movel ou emulador com o app(Expo) instalado ler o QRcode.
