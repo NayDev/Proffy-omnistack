@@ -1,0 +1,74 @@
+#page-register {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#page-register button {
+    background: var(--color-secundary);
+}
+
+#page-register section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+#page-register section.form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-register section.form input {
+    width: 100%;
+    height: 5.6rem;
+    border: 0;
+    border-radius: 0.8rem;
+    font: 700 1.6rem Archivo;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-register section.form button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+#page-register section.form button:hover {
+    background: var(--color-secundary-dark);
+}
+
+#page-register img {
+    width: 100%;
+    height: 100vh;
+}
+
+#page-register fieldset {
+    border: 0;
+}
+
+#page-register fieldset legend {
+    font: 700 2.4rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
