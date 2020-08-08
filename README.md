@@ -2,7 +2,7 @@
 
 🚧 NextLevelWeek #2 🚀 em construção 2.0... 🚧
 
-![Screenshot](screenshot.png)
+![proffy_web](https://user-images.githubusercontent.com/50646395/89697952-01fa7600-d8f5-11ea-84b7-959351e46cb0.png)
 
 💻 Um pouco sobre o projeto
 
