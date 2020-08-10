@@ -1,5 +1,7 @@
 # Projeto desenvolvido durante a NLW#2 - Next Level Week oferecida pela Rocketseat. 
 
+# Trilha omnistack
+
 🚧 NextLevelWeek #2 🚀 em construção 2.0... 🚧
 
 ![mobile](https://user-images.githubusercontent.com/50646395/89698021-64537680-d8f5-11ea-82d2-16b6040c559b.jpeg)
