@@ -1,0 +1,162 @@
+#login-form {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#login-form .logon {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: -76px;
+}
+
+#login-form .page-header .header-content {
+    margin-bottom: 6.4rem;
+}
+
+#login-form main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form main fieldset {
+    border: 0;
+    padding: 0 2.4rem;
+    display: flex;
+}
+
+#login-form main fieldset+fieldset {
+    margin-top: 6.4rem;
+}
+
+#login-form main fieldset legend {
+    font: 700 2.0rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#login-form main fieldset legend button {
+    background: none;
+    border: 0;
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+#login-form main fieldset legend button:hover {
+    color: var(--color-primary-dark);
+}
+
+#login-form main fieldset .input-block+.textarea-block,
+#login-form main fieldset .select-block+.input-block {
+    margin-top: 2.4rem;
+}
+
+#login-form main label {
+    color: var(--color-text-complement);
+}
+
+#login-form main footer {
+    padding: 4rem 2.4rem;
+    margin-top: 3.2rem;
+}
+
+#login-form main footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--color-text-complement);
+}
+
+#login-form main footer p img {
+    margin-right: 2rem;
+}
+
+#login-form main footer button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color .2s;
+}
+
+#login-form main footer button:hover {
+    background: var(--color-secundary-dark);
+}
+
+@media (min-width: 700px) {
+    #login-form {
+        max-width: 100vw;
+    }
+    #login-form main {
+        width: 100%;
+    }
+    #login-form .page-header .header-content {
+        margin-bottom: 0;
+    }
+    #login-form main fieldset {
+        padding: 0 3.2rem;
+    }
+    #login-form main fieldset legend {
+        flex-direction: row;
+    }
+    #login-form main .schedule-item {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 1.6rem;
+    }
+    #login-form main .schedule-item .input-block {
+        margin-top: 0 !important;
+    }
+    #login-form main footer {
+        padding: 4.0rem 3.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #login-form main footer p {
+        justify-content: space-between;
+    }
+    #login-form main footer button {
+        margin-top: 0;
+    }
+    .loginText {
+        margin-top: 0;
+    }
+}
+
+.loginText {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+}
+
+.loginText a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
